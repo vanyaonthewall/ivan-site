@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light" />
+    <meta
+      name="description"
+      content="Баня на Рубинштейна: видовое банное пространство в центре Петербурга, программы парения, хаммам, купели, массажи и бронирование."
+    />
+    <title>Баня на Рубинштейна</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand t-control" href="#top" aria-label="На первый экран">
+        <span class="brand-mark"></span>
+        <span>Баня на Рубинштейна</span>
+      </a>
+      <nav class="nav t-control" aria-label="Основная навигация">
+        <a href="#about">О бане</a>
+        <a href="#programs">Программы</a>
+        <a href="#booking">Бронь</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <a class="header-phone t-control" href="tel:+79213234631">+7 921 323-46-31</a>
+    </header>
+
+    <main id="top">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow t-caption">7 этаж отеля «Достоевский»</p>
+            <h1 class="t-display">Баня на Рубинштейна</h1>
+            <p class="lead t-body">
+              Видовая русская баня в центре Петербурга: парная, хаммам, купели,
+              травы, массажи и камерные события до 12 гостей.
+            </p>
+            <div class="hero-actions">
+              <button class="ui-button ui-button--primary t-control" type="button" data-open-booking>Забронировать</button>
+              <a class="ui-button ui-button--secondary t-control" href="#programs">Выбрать программу</a>
+            </div>
+          </div>
+
+          <div class="hero-panel" aria-label="Ключевые возможности">
+            <div class="wire-photo">
+              <span class="t-caption">Фото пространства</span>
+            </div>
+            <div class="hero-facts">
+              <div>
+                <strong class="t-heading">10</strong>
+                <span class="t-caption">гостей в большой парной</span>
+              </div>
+              <div>
+                <strong class="t-heading">3-4</strong>
+                <span class="t-caption">часа по программе</span>
+              </div>
+              <div>
+                <strong class="t-heading">7</strong>
+                <span class="t-caption">этаж с видом на город</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section tone-light">
+        <div class="container split">
+          <div>
+            <p class="eyebrow t-caption">О пространстве</p>
+            <h2 class="t-heading">Город остается за стеклом</h2>
+          </div>
+          <div class="text-stack t-body">
+            <p>
+              Пространство собрано для спокойного маршрута: пар, травы, вода,
+              теплый камень и панорамные окна на исторический центр.
+            </p>
+            <p>
+              Можно прийти вдвоем, собрать друзей или провести камерный день
+              рождения с угощениями от ресторана «Достоевский».
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow t-caption">Зоны комплекса</p>
+            <h2 class="t-heading">Маршрут без лишних переходов</h2>
+          </div>
+          <div class="zone-grid">
+            <article class="zone-card t-body">Большая парная на 10 персон</article>
+            <article class="zone-card t-body">Холодная и горячая купели</article>
+            <article class="zone-card t-body">Фитопарная с корой дуба и алтайскими травами</article>
+            <article class="zone-card t-body">Комната отдыха с панорамными окнами</article>
+            <article class="zone-card t-body">Хаммам с большим чебеком</article>
+            <article class="zone-card t-body">Массажный кабинет, душевые и раздевалки</article>
+          </div>
+        </div>
+      </section>
+
+      <section id="programs" class="section tone-mid">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow t-caption">Программы</p>
+            <h2 class="t-heading">Выберите глубину пара</h2>
+            <p class="t-body">
+              В каждой программе есть общий пар с травами, чайная пауза и
+              сопровождение банного специалиста.
+            </p>
+          </div>
+
+          <div class="program-grid">
+            <article class="program-card ui-tile">
+              <p class="program-kicker t-caption">Мягкий старт</p>
+              <h3 class="program-title t-body">Путь</h3>
+              <p class="program-text t-control">
+                Общий пар, раскрытие трав, чай и пауза на отдых.
+              </p>
+              <dl class="program-meta t-control">
+                <div><dt>Гости</dt><dd>4-12</dd></div>
+                <div><dt>Время</dt><dd>3 или 4 часа</dd></div>
+                <div><dt>Цена</dt><dd>от 10 000 ₽</dd></div>
+              </dl>
+              <button class="select-program ui-button ui-button--secondary t-control" type="button" data-program="Путь">Выбрать</button>
+            </article>
+
+            <article class="program-card ui-tile featured">
+              <p class="program-kicker t-caption">Восстановление</p>
+              <h3 class="program-title t-body">Ресурс</h3>
+              <p class="program-text t-control">
+                Соль с травами, цветочный мед, березовый отвар и питающая маска.
+              </p>
+              <dl class="program-meta t-control">
+                <div><dt>Гости</dt><dd>3-8</dd></div>
+                <div><dt>Время</dt><dd>4 часа</dd></div>
+                <div><dt>Цена</dt><dd>14 000 ₽</dd></div>
+              </dl>
+              <button class="select-program ui-button ui-button--secondary t-control" type="button" data-program="Ресурс">Выбрать</button>
+            </article>
+
+            <article class="program-card ui-tile">
+              <p class="program-kicker t-caption">Классика</p>
+              <h3 class="program-title t-body">Основа</h3>
+              <p class="program-text t-control">
+                Индивидуальное парение, контраст, мягкий догрев и мойка в хаммаме.
+              </p>
+              <dl class="program-meta t-control">
+                <div><dt>Гости</dt><dd>3-8</dd></div>
+                <div><dt>Время</dt><dd>4 часа</dd></div>
+                <div><dt>Цена</dt><dd>15 000 ₽</dd></div>
+              </dl>
+              <button class="select-program ui-button ui-button--secondary t-control" type="button" data-program="Основа">Выбрать</button>
+            </article>
+
+            <article class="program-card ui-tile">
+              <p class="program-kicker t-caption">Максимум</p>
+              <h3 class="program-title t-body">Предел</h3>
+              <p class="program-text t-control">
+                Крепкий пар, два контраста, три захода, проминание и тибетская чаша.
+              </p>
+              <dl class="program-meta t-control">
+                <div><dt>Гости</dt><dd>3-6</dd></div>
+                <div><dt>Время</dt><dd>4 часа</dd></div>
+                <div><dt>Цена</dt><dd>17 000 ₽</dd></div>
+              </dl>
+              <button class="select-program ui-button ui-button--secondary t-control" type="button" data-program="Предел">Выбрать</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-after-programs">
+        <div class="container gallery-layout">
+          <div>
+            <p class="eyebrow t-caption">Галерея</p>
+            <h2 class="t-heading">Пространство по зонам</h2>
+          </div>
+          <div class="gallery-panel">
+            <div class="gallery-stage wire-photo" id="galleryStage">
+              <span class="t-caption" id="galleryLabel">Парная</span>
+            </div>
+            <div class="gallery-controls" aria-label="Переключить зону">
+              <button class="gallery-button ui-button ui-button--primary t-control is-selected" type="button" data-gallery="Парная">Парная</button>
+              <button class="gallery-button ui-button ui-button--secondary t-control" type="button" data-gallery="Купели">Купели</button>
+              <button class="gallery-button ui-button ui-button--secondary t-control" type="button" data-gallery="Хаммам">Хаммам</button>
+              <button class="gallery-button ui-button ui-button--secondary t-control" type="button" data-gallery="Комната отдыха">Комната отдыха</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container split">
+          <div>
+            <p class="eyebrow t-caption">Дополнительно</p>
+            <h2 class="t-heading">Процедуры к брони</h2>
+          </div>
+          <div class="extras-list t-control">
+            <div><span>Скрабы и мыльная мойка в хаммаме</span><strong>3 000 ₽</strong></div>
+            <div><span>Парение с контрастом</span><strong>5 000 ₽</strong></div>
+            <div><span>Двойной контраст</span><strong>8 000 ₽</strong></div>
+            <div><span>Коллективное парение</span><strong>от 8 000 ₽</strong></div>
+            <div><span>Массаж 30 / 45 / 60 минут</span><strong>3 500 / 4 500 / 6 000 ₽</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="booking" class="section booking-section">
+        <div class="container booking-cta">
+          <div>
+            <p class="eyebrow t-caption">Бронь</p>
+            <h2 class="t-heading">Выберите программу и доступное время</h2>
+          </div>
+          <div class="booking-copy">
+            <p class="t-body">
+              Бронирование проходит в отдельном окне: программа, календарь,
+              время, детали визита и подтверждение.
+            </p>
+            <button class="ui-button ui-button--primary t-control" type="button" data-open-booking>Забронировать визит</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="certificate" class="section tone-light">
+        <div class="container certificate">
+          <div class="wire-photo small">
+            <span class="t-caption">Сертификат</span>
+          </div>
+          <div class="text-stack">
+            <p class="eyebrow t-caption">Подарочный сертификат</p>
+            <h2 class="t-heading">Подарите готовый повод отдохнуть</h2>
+            <p class="t-body">
+              Сертификат подходит для посещения бани, программ парения и процедур
+              по предварительной записи.
+            </p>
+            <ul class="plain-list t-body">
+              <li>Если стоимость выше номинала, гость доплачивает разницу.</li>
+              <li>Услуги оказываются при предъявлении оригинала сертификата.</li>
+              <li>Акции и скидки с сертификатом не суммируются.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contacts" class="footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="eyebrow t-caption">Контакты</p>
+          <h2 class="t-heading">Баня на Рубинштейна</h2>
+        </div>
+        <address class="t-body">
+          <a href="tel:+79213234631">+7 921 323-46-31</a>
+          <a href="mailto:spa7@dostoevsky-hotel.com">spa7@dostoevsky-hotel.com</a>
+          <span>Санкт-Петербург, ул. Рубинштейна, д. 28</span>
+          <a href="https://drive.google.com/file/d/1zCJZvAIRBXheCSKbRCPGor1mIGJ4w7NN/view?usp=sharing">Правила банного комплекса</a>
+        </address>
+      </div>
+    </footer>
+
+    <dialog class="booking-modal" id="bookingModal" aria-labelledby="modalTitle">
+      <form class="modal-shell" id="bookingForm" method="dialog">
+        <header class="modal-header">
+          <div>
+            <p class="eyebrow t-caption" id="stepLabel">Шаг 1 из 4</p>
+            <h2 class="modal-title t-body" id="modalTitle">Выберите программу</h2>
+          </div>
+          <button class="modal-close ui-button ui-button--secondary t-control" type="button" data-close-modal aria-label="Закрыть бронь">Закрыть</button>
+        </header>
+
+        <div class="modal-progress" aria-hidden="true">
+          <span class="is-active"></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <section class="modal-step is-active" data-step="0">
+          <div class="modal-programs">
+            <label class="modal-choice ui-tile">
+              <input type="radio" name="program" value="Путь" required />
+              <span class="choice-name t-body">Путь</span>
+              <span class="choice-meta t-caption">от 10 000 ₽ · 3-4 часа · 4-12 гостей</span>
+            </label>
+            <label class="modal-choice ui-tile">
+              <input type="radio" name="program" value="Ресурс" />
+              <span class="choice-name t-body">Ресурс</span>
+              <span class="choice-meta t-caption">14 000 ₽ · 4 часа · 3-8 гостей</span>
+            </label>
+            <label class="modal-choice ui-tile">
+              <input type="radio" name="program" value="Основа" />
+              <span class="choice-name t-body">Основа</span>
+              <span class="choice-meta t-caption">15 000 ₽ · 4 часа · 3-8 гостей</span>
+            </label>
+            <label class="modal-choice ui-tile">
+              <input type="radio" name="program" value="Предел" />
+              <span class="choice-name t-body">Предел</span>
+              <span class="choice-meta t-caption">17 000 ₽ · 4 часа · 3-6 гостей</span>
+            </label>
+          </div>
+        </section>
+
+        <section class="modal-step" data-step="1">
+          <div class="calendar-head">
+            <span class="t-body">Август 2026</span>
+            <span class="t-caption">Ближайшие даты</span>
+          </div>
+          <div class="calendar-grid t-caption" id="calendarGrid" aria-label="Календарь доступных дат"></div>
+        </section>
+
+        <section class="modal-step" data-step="2">
+          <div class="slot-layout">
+            <div>
+              <p class="eyebrow t-caption">Время</p>
+              <div class="time-grid" id="timeGrid"></div>
+              <p class="slot-hint t-caption" id="slotHint">Сначала выберите дату</p>
+            </div>
+            <div class="visit-details">
+              <label class="field t-control">
+                Гостей
+                <input name="guests" type="number" min="1" max="12" value="4" required />
+              </label>
+              <label class="field t-control">
+                Формат
+                <select name="occasion">
+                  <option>Просто отдых</option>
+                  <option>День рождения</option>
+                  <option>Девичник</option>
+                  <option>Корпоратив</option>
+                  <option>Сертификат</option>
+                </select>
+              </label>
+              <div class="addon-grid">
+                <label class="addon ui-tile t-control"><input type="checkbox" name="addons" value="Массаж" /> Массаж</label>
+                <label class="addon ui-tile t-control"><input type="checkbox" name="addons" value="Мыльная мойка" /> Мыльная мойка</label>
+                <label class="addon ui-tile t-control"><input type="checkbox" name="addons" value="Парение с контрастом" /> Парение с контрастом</label>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="modal-step" data-step="3">
+          <div class="confirm-layout">
+            <div class="contact-fields">
+              <label class="field t-control">
+                Имя
+                <input name="name" type="text" autocomplete="name" required />
+              </label>
+              <label class="field t-control">
+                Телефон
+                <input name="phone" type="tel" autocomplete="tel" required />
+              </label>
+              <label class="field t-control">
+                Комментарий
+                <textarea name="comment" rows="3" placeholder="Например: нужен массаж для двоих"></textarea>
+              </label>
+            </div>
+            <aside class="booking-summary">
+              <p class="eyebrow t-caption">Сводка</p>
+              <dl class="summary-list t-control" id="summaryList"></dl>
+            </aside>
+          </div>
+        </section>
+
+        <section class="modal-success" id="successStep" hidden>
+          <p class="eyebrow t-caption">Забронировано</p>
+          <h2 class="t-heading">Заявка на бронь принята</h2>
+          <p class="t-body" id="successText"></p>
+          <a class="ui-button ui-button--primary t-control" id="mailLink" href="mailto:spa7@dostoevsky-hotel.com">Продублировать на почту</a>
+        </section>
+
+        <p class="form-status t-control" id="formStatus" role="status" aria-live="polite"></p>
+
+        <footer class="modal-actions">
+          <button class="ui-button ui-button--secondary t-control" type="button" id="backButton">Назад</button>
+          <button class="ui-button ui-button--primary t-control" type="button" id="nextButton">Дальше</button>
+          <button class="ui-button ui-button--primary t-control" type="submit" id="submitButton">Подтвердить бронь</button>
+        </footer>
+      </form>
+    </dialog>
+
+    <script src="script.js"></script>
+  </body>
+</html>

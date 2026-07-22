@@ -25,10 +25,11 @@ a {
 
 .doc-large {
   margin: 0;
-  font-size: clamp(30px, 5vw, 68px);
+  font-size: clamp(24px, 3.2vw, 44px);
   font-weight: 400;
-  line-height: 1.02;
+  line-height: 1.08;
   letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .doc-small {
@@ -47,8 +48,8 @@ a {
 
 .document-row {
   display: grid;
-  grid-template-columns: minmax(180px, 0.38fr) minmax(0, 1fr);
-  gap: clamp(28px, 5vw, 80px);
+  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  gap: clamp(24px, 5vw, 72px);
   padding: clamp(28px, 5vw, 56px) 0;
   border-top: 1px solid var(--line);
 }
@@ -61,8 +62,8 @@ a {
 }
 
 .document-intro {
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 0.34fr);
-  min-height: 56vh;
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 320px);
+  min-height: 48vh;
   align-items: end;
 }
 
@@ -70,7 +71,7 @@ a {
 .document-copy,
 .document-list {
   display: grid;
-  gap: 18px;
+  gap: 16px;
 }
 
 .document-side {

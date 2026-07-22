@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "python3 -m http.server 5173",
-    "build": "mkdir -p dist && cp index.html styles.css script.js dist/",
+    "build": "mkdir -p dist && cp index.html example.html proposal.css styles.css script.js dist/",
     "start": "python3 -m http.server 5173"
   }
 }

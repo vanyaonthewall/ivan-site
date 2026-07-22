@@ -381,6 +381,10 @@ h3 {
   color: var(--muted);
 }
 
+.example-section {
+  background: var(--surface-soft);
+}
+
 .program-card {
   grid-column: span 3;
   align-content: start;
